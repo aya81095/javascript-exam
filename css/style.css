@@ -65,3 +65,22 @@ ul {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+
+@media (max-width: 768px) {
+  .nav-header .logo,
+  .nav-header .links {
+    display: none !important;
+  }
+  .nav-header {
+    position: absolute;
+    right: -75px;
+    top: 120px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+  }
+}
